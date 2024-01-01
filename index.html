@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <title>Aqua Fresh</title>
+</head>
+<body>
+    <!--header section-->
+    <header class="header">
+    
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>AquaFresh</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" id="search-box" placeholder="Search">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="strawberries.jpg" alt="">
+                <div class="content">
+                    <h3>Strawberry Street</h3>
+                    <span class="price">$3.99/-</span>
+                    <span class="quantity">Qty: 500 gm</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="walnuts.jpg" alt="">
+                <div class="content">
+                    <h3>Walnut Walk</h3>
+                    <span class="price">$7.99/-</span>
+                    <span class="quantity">Qty: 250 gm</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="sweetcorn.jpg" alt="">
+                <div class="content">
+                    <h3>Sweet Corn Corner</h3>
+                    <span class="price">$6.99/-</span>
+                    <span class="quantity">Qty: 3</span>
+                </div>
+            </div>
+            <div class="total">Total : $18.97/-</div>
+            <a href="#" class="btn">Proceed to Checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>User Login</h3>
+            <input type="email" name="" id="" class="box" placeholder="Enter your email">
+            <input type="password" name="" id="" class="box" placeholder="Enter your password">
+            <input type="submit" value="Login" class="btn">
+            <div class="links"><a href="#">Forgot Password</a>
+            <a href="#">New User</a>
+            </div>
+        </form>
+
+    </header>
+
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh Finds <span>Every Time</span></h3>
+            <p>Welcome to our online grocery store, where quality meets convenience. Discover a bountiful selection of farm-fresh produce, nuts, and more, delivered to your doorstep.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+
+    <!--features section-->
+    <section class="features" id="features">
+
+        <h1 class="heading">Our <span>Features</span></h1>
+
+        <div class="swiper box-container">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="organic-icon.png" alt="">
+                    <h3>Organic Selection</h3>
+                    <p>Nourish your well-being with our Organic Harvest Selection, delivering farm-fresh, organic fruits and vegetables to your kitchen.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="delivery-icon.png" alt="">
+                    <h3>Free Shipping</h3>
+                    <p>Enjoy the convenience of free, speedy delivery with our FreeShip Guarantee. No hidden fees – just a seamless experience to your doorstep.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="payments-icon.png" alt="">
+                    <h3>Secure Payments</h3>
+                    <p>Shop with confidence using our FortiPay Assurance, ensuring secure and hassle-free online transactions for your peace of mind</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+
+    <!--Products Section-->
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>Products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="almonds.jpg" alt="">
+                    <h3>Almond Alley</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="apricots.jpg" alt="">
+                    <h3>Apricot Oasis</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="apples.jpg" alt="">
+                    <h3>Apple Haven</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="avocado.jpg" alt="">
+                    <h3>Avocado Affair</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="bellpeppers.jpg" alt="">
+                    <h3>Bell Pepper Bazaar</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="broccoli.jpg" alt="">
+                    <h3>Broccoli Boulevard</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="carrots.jpg" alt="">
+                    <h3>Carrot Corner</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="cashewnuts.jpg" alt="">
+                    <h3>Cashew Nook</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="cauliflower.jpg" alt="">
+                    <h3>Cauliflower Central</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="coriander.jpg" alt="">
+                    <h3>Coriander Cart</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="dragonfruit.jpg" alt="">
+                    <h3>Dragonfruit Den</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="greenpeas.jpg" alt="">
+                    <h3>Green Peas Plaza</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="kiwi.jpg" alt="">
+                    <h3>Kiwi Kingdom</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="lemons.jpg" alt="">
+                    <h3>Lemon Lane</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="mango.jpg" alt="">
+                    <h3>Mango Grove</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="onions.jpg" alt="">
+                    <h3>Onion Outpost</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="orange.jpg" alt="">
+                    <h3>Orange Orchard</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="pineapple.jpg" alt="">
+                    <h3>Pineapple Paradise</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="pista.jpg" alt="">
+                    <h3>Pistachio Pantry</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="pomegranate.jpg" alt="">
+                    <h3>Pomegranate Pavilion</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="pumpkinseeds.jpg" alt="">
+                    <h3>Pumpkin Seed Shot</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="raspberries.jpg" alt="">
+                    <h3>Raspberry Ridge</h3>
+                    <div class="price">$4.99 - 10.99</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--categories section-->
+    <section class="categories" id="categories">
+        <h1 class="heading">Product <span>Categories</span></h1>
+        <div class="swiper box-container">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="cat-fruit.jpg" alt="">
+                <h3>Fresh Fruits</h3>
+                <p>Upto 45% Off</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="cat-veggies.jpg" alt="">
+                <h3>Crisp Vegetables</h3>
+                <p>Upto 45% Off</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="cat-dry.jpg" alt="">
+                <h3>Nut & Dried Fruits</h3>
+                <p>Upto 45% Off</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="cat-beverage.jpg" alt="">
+                <h3>Beverage Oasis</h3>
+                <p>Upto 45% Off</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="cat-dairy.jpg" alt="">
+                <h3>Dairy Products</h3>
+                <p>Upto 45% Off</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+
+    <!--revies section-->
+    <section class="review" id="reviews">
+        <h1 class="heading">Customer <span>Reviews</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="girl1.jpg" alt="">
+                    <p>Impressed with the quality and freshness of the fruits and vegetables! The delivery was quick, and everything was neatly packed. Will definitely be my go-to for fresh produce.</p>
+                    <h3>Sarah M.</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="boy1.jpg" alt="">
+                    <p>Wide variety of snacks and beverages to choose from. The Beverage Oasis section is a personal favorite. The ordering process is easy, and the delivery is always on time.</p>
+                    <h3>Alex H.</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="boy2.jpg" alt="">
+                    <p>Love the Nuts & Dried Fruits collection! It's a perfect mix for healthy snacking. The quality is consistently good, and the prices are reasonable. Highly recommended.</p>
+                    <h3>David L.</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="girl2.jpg" alt="">
+                    <p>The Pantry Staples category is a lifesaver! It's convenient to have all the essentials in one place. The website is user-friendly, and the customer service is excellent.</p>
+                    <h3>Emily P.</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="boy3.jpg" alt="">
+                    <p>Free Shipping+ is a fantastic feature! It adds tremendous value to the overall experience. I appreciate the transparency and efficiency in every order. Keep it up!</p>
+                    <h3>Mark T.</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <!--blog section-->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">Daily <span>Blogs</span></h1>
+        <div class="swiper box-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="blog1.jpg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                            <a href="#"><i class="fas fa-calendar"></i>1st may, 2022</a>
+                        </div>
+                        <h3>Seasonal Delights</h3>
+                        <p>Explore the benefits of incorporating seasonal fruits and vegetables into your diet, along with tasty recipes and cooking tips for each season.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="blog2.jpg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                            <a href="#"><i class="fas fa-calendar"></i>2nd may, 2022</a>
+                        </div>
+                        <h3>Healthy Snacking</h3>
+                        <p>Dive into the world of nutritious snacking with a blog post that highlights the health benefits of nuts and dried fruits.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="blog3.jpg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                            <a href="#"><i class="fas fa-calendar"></i>3rd may, 2022</a>
+                        </div>
+                        <h3>DIY Pantry Staples</h3>
+                        <p>From sauces and condiments to spice blends, empower readers to create delicious meals from scratch.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="blog4.jpg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                            <a href="#"><i class="fas fa-calendar"></i>4th may, 2022</a>
+                        </div>
+                        <h3>Beverage Bliss</h3>
+                        <p>Showcase a variety of beverage recipes, including refreshing juices, mocktails, and unique coffee blends. Provide tips on pairing beverages with different meals and occasions.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="blog5.jpg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                            <a href="#"><i class="fas fa-calendar"></i>5th may, 2022</a>
+                        </div>
+                        <h3>Farm-to-Table</h3>
+                        <p>Take readers behind the scenes to explore the journey of fresh produce from local farms to their tables. Highlight farming stories, and the importance of supporting local agriculture.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="blog6.jpg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                            <a href="#"><i class="fas fa-calendar"></i>6th may, 2022</a>
+                        </div>
+                        <h3>Snack Hacks</h3>
+                        <p>Share creative and healthy snack ideas, along with tips on making snacking a mindful and enjoyable experience. Include quick recipes and suggestions for both sweet and savory snacks.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <!--footer section-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>AquaFresh <i class="fas fa-shopping-basket"></i></h3>
+                <p>Freshness Delivered to Your Door: Your Trusted Source for Quality Produce, Pantry Essentials, and More!</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+729-874-2536</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+534-123-7464</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>contact@aquafresh.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Mumbai, India - 400104</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home" class="links"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#features" class="links"><i class="fas fa-arrow-right"></i>Features</a>
+                <a href="#products" class="links"><i class="fas fa-arrow-right"></i>Products</a>
+                <a href="#categories" class="links"><i class="fas fa-arrow-right"></i>Categories</a>
+                <a href="#reviews" class="links"><i class="fas fa-arrow-right"></i>Reviews</a>
+                <a href="#blogs" class="links"><i class="fas fa-arrow-right"></i>Blogs</a>
+            </div>
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p class="subscribe">Subscribe For Updates</p>
+                <input type="email" name="" id="" class="email" placeholder="Enter your email">
+                <input type="submit" value="Subscribe" class="btn">
+            </div>
+        </div>
+        <div class="credit">Copyright &copy;<span>Sakshi Tiwari</span> | All Rights Reserved</div>
+    </section>
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
